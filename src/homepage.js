@@ -1,10 +1,10 @@
-import "./App.css";
+import "./homepage.css";
 import ProfileHeader from "./profilesection/profilesection";
 import LinkSection from "./linksection/linksection";
 import BeforeFooter from "./sectionbforefooter/sectionbeforefooter";
 import Footer from "./footersection/footer";
 
-function App() {
+function Homepage() {
   return (
     <div className="App">
       <ProfileHeader />
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./linksection.scss";
+import { Link } from "react-router-dom";
 
 const LinkSection = () => {
   return (
@@ -55,6 +56,10 @@ const LinkSection = () => {
       <a id="book__design" href="https://books.zuri.team/design-rules">
         Design Book
       </a>
+      {/**CONTACT US ANCHOR TAG */}
+      <Link to="/contact" id="contact">
+        Contact Me
+      </Link>
     </div>
   );
 };
