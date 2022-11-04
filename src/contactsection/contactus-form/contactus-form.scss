@@ -1,7 +1,7 @@
 .contactformdiv {
   display: flex;
   flex-direction: column;
-  height: 70vh;
+
   width: 60%;
 }
 .contactform {
@@ -62,4 +62,15 @@
   font-family: sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .contactformdiv {
+    width: 85%;
+  }
+}
+@media (max-width: 799px) {
+  .contactformdiv {
+    width: 85%;
+  }
 }

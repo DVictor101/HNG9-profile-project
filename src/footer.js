@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import Ingressiveforgood from "../Assets/Ingressiveforgood.jpg";
+import Ingressiveforgood from "./Assets/Ingressiveforgood.jpg";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         <div>
           <svg
             width="130"
-            height="104"
+            height="90"
             viewBox="0 0 130 104"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ const Footer = () => {
           </svg>
         </div>
         <div>
-          <p>HNG Internship 9 Frontend Task</p>
+          <p className="hng-desc">HNG Internship 9 Frontend Task</p>
         </div>
         <div>
           <img
